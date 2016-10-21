@@ -7,6 +7,7 @@
 #define pb push_back
 #define endl "\n"
 #define PI 3.14159265359
+#define LL_MAX std::numeric_limits<long long>::max()
 
 #define FOR(i, a, b) for (int i = (a); i < (b); ++i)
 #define REP(i, n) FOR(i, 0, n)
