@@ -13,6 +13,7 @@
 #define REP(i, n) FOR(i, 0, n)
 #define IN(v,n) REP(i,n) cin >> v[i];
 #define TRACE(x) if(DEBUG) cout << #x << " = " << x << endl
+#define SORT(v) sort(v.begin(), v.end())
 #define _ << " " <<
 
 typedef int int_32;
