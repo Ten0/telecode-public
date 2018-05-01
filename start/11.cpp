@@ -6,15 +6,16 @@
 
 #define pb push_back
 #define endl "\n"
-#define PI 3.14159265359
-#define LL_MAX std::numeric_limits<long long>::max()
+#define PI ((double)M_PI)
+#define INF 1e18
 
 #define FOR(i, a, b) for (int i = (a); i < (b); ++i)
 #define REP(i, n) FOR(i, 0, n)
 #define IN(v,n) REP(i,n) cin >> v[i];
-#define TRACE(x) if(DEBUG) cout << #x << " = " << x << endl
-#define SORT(v) sort(v.begin(), v.end())
-#define REVERSE(v) reverse(v.begin(), v.end())
+#define TRACE(x) if(DEBUG) cout << #x << " = " << (x) << endl
+#define ALL(v) v.begin(), v.end()
+#define SORT(v) sort(ALL(v))
+#define REVERSE(v) reverse(ALL(v))
 #define _ << " " <<
 
 typedef int int_32;
