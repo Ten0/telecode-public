@@ -72,7 +72,7 @@ Accélère la sortie des retours à la ligne.
 `REP(i,n) cin >> t[i];` devient `IN(t,n);`
 
 ```
-#define TRACE(x) if(DEBUG) cout << #x << " = " << x << endl
+#define TRACE(x) if(DEBUG) cout << #x << " = " << (x) << endl
 ```
 `TRACE(valeur1)` affichera `valeur1 = <valeur1>` sur la sortie standard, uniquement si le programme est compilé chez vous.  
 Le message ne s'affichera pas lors de la soumission de votre code pour vérification.
